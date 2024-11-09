@@ -1,0 +1,106 @@
+body {
+    width: 250px;
+    height: 300px;
+    padding-bottom: 5px;
+}
+
+.inputArea {
+    padding: 15px;
+}
+
+#appTitle {
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 12pt;
+    text-align: center;
+    padding: 5px;
+}
+
+.keywords {
+    text-align: center;
+}
+
+#areaTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-bottom: 8%;
+}
+
+.deleteKeyword {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.deleteKeyword:hover {
+    color: royalblue;
+}
+
+.deleteKeyword:active {
+    color: black;
+}
+
+.keyword {
+    margin-bottom: 5%;
+    height: 20px;
+    width: 150px;
+    font-weight: bold;
+}
+
+#warning {
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-size : 11pt;
+}
+
+.buttonArea {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#add {
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    background-color: gray;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+
+#add:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+#add:active {
+    background-color: gray;
+}
+
+
+#save {
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+
+#save:hover {
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+#save:active {
+    background-color: blue;
+}

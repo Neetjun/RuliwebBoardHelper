@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "RBH",
+  "version": "1.0",
+  "description": "유게에서 특정 키워드의 글을 가려주는 확장프로그램 입니다. 초짜 개발자가 연습으로 만든거임.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bbs.ruliweb.com/best/*",
+        "https://bbs.ruliweb.com/community/*"
+      ],
+      "js": [
+      "doJob.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage", "activeTab"
+  ]
+}
